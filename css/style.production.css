@@ -35,7 +35,7 @@ a {
 .page-header__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 100px;
-          flex: 0 1 100px;
+          flex: 0 1 50px;
 }
 
 .page-header__item:last-child {
@@ -87,6 +87,7 @@ a:active {
 .button {
   @extend %button-shared;
   background-color: #357b70;
+  margin-top: 25px;
 }
 
 button:hover, button:focus {
@@ -96,6 +97,19 @@ button:hover, button:focus {
 
 .header__title {
   margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.about-me-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.skills-table {
+  margin: auto;
 }
 
 .article {
@@ -263,6 +277,15 @@ button:focus,
 .background {
   width: 800px;
   margin: 30px auto;
+}
+
+form {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.clicked {
+  color: #bc544b
 }
 
 svg .cls-21, svg .cls-20, svg .cls-19,
